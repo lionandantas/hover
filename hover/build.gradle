@@ -3,7 +3,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'checkstyle'
 
 version = '0.9.8'
-
+group ='br.com.hover'
 android {
     compileSdkVersion project.compileSdkVersion.toInteger()
     buildToolsVersion project.buildToolsVersion
